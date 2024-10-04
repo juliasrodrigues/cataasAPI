@@ -1,0 +1,12 @@
+<div class="cont">
+  <h2>Imagem aleatória de um gato</h2>
+  <div class="quadro"><img class="foto" src="https://cataas.com/cat/{{data}}"></div>
+  <div class="tags">
+    <h4 *ngIf="data2[0]">Tags associadas a imagem gerada:</h4>
+    <p class="tag"  *ngFor="let cat of data2; index as i">
+    {{data2[i]}}
+  </p></div>
+  <!-- <p *ngIf="data2">
+    {{data2[0]}}
+  </p> -->
+</div>

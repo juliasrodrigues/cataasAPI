@@ -1,0 +1,7 @@
+{
+  "name": "tabom",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

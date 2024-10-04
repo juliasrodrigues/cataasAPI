@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <!-- <ion-back-button></ion-back-button> -->
+  <ion-toolbar>
+    <ion-title>Sobre a API</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <h3>API utilizada: cataas<br>cat as a service</h3>
+    <p>A API escolhida gera uma imagem aleatória de um gato e suas tags associadas, se existente. <br><br>
+      Quando é feita a request, é gerado um Json com dados sobre a imagem selecionada, como: ID da imagem, tags, data de upload e tamanho original.<br><br>
+      No arquivo TS do componente, esse Json é tratado e somente as informações importantes são guardadas, nesse caso o ID e as tags associadas a imagem gerada.
+    </p>
+    <div class="btn">
+    <ion-button fill="clear" routerLink="/home">Página Apresentação</ion-button>
+    <ion-button fill="clear" routerLink="/pag1">API</ion-button>
+    </div>
+  </div>
+</ion-content>
